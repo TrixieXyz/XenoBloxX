@@ -1,7 +1,7 @@
 -- discord.gg/AfcRjyTd
 
 
-shared.LoaderTitle = "Lemon Hub Loading....";
+shared.LoaderTitle = "Xeno BloxX Hub Loading....";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -313,8 +313,8 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))();
 local v15 = v14:CreateWindow({
-    Title = "Lemon Hub [ Premium ] Blox-Fruit",
-    SubTitle = "by  _huyz",
+    Title = "Xeno BloxX Hub [ Premium ] Blox-Fruit",
+    SubTitle = "by _Trixie",
     TabWidth = 160,
     Theme = "Dark",
     Acrylic = false,
@@ -7720,7 +7720,7 @@ local v136 = {
     "Dough"
 };
 local v137 = v16.Raid:AddDropdown("DropdownRaid", {
-    Title = "Chọn Chip",
+    Title = "Chip",
     Description = "",
     Values = v136,
     Multi = false,
@@ -7866,7 +7866,7 @@ spawn(function()
     end
 end);
 local v142 = v16.Raid:AddToggle("ToggleGetFruit", {
-    Title = "Lấy Trái Dưới 1 Triệu",
+    Title = "Get Fruit Under 1 Million",
     Description = "",
     Default = false
 });
@@ -9324,7 +9324,7 @@ spawn(function()
     end
 end);
 v14:Notify({
-    Title = "Lemon Hub",
-    Content = "Downloading Version...",
+    Title = "Xeno BloxX Hub",
+    Content = "⚙️Loading...Script By Trixie",
     Duration = 20
 });
