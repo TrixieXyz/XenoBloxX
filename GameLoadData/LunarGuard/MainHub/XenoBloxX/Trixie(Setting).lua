@@ -313,7 +313,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))();
 local v15 = v14:CreateWindow({
-    Title = "Xeno BloxX Hub [ Premium ] Blox-Fruit",
+    Title = "Xeno BloxX Hub Blox-Fruits [ Premium ]",
     SubTitle = "by _Trixie",
     TabWidth = 160,
     Theme = "Dark",
@@ -9325,6 +9325,11 @@ spawn(function()
 end);
 v14:Notify({
     Title = "Xeno BloxX Hub",
-    Content = "⚙️Loading...Script By Trixie",
+    Content = "⚙️ Đã Xong....",
     Duration = 20
+});
+v14:Notify({
+    Title = "Xeno BloxX Hub",
+    Content = "by _Trixie 🦖",
+    Duration = 10
 });
